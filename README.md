@@ -1,16 +1,8 @@
-# OpenAI Realtime API Voice Assistant
+# LLM customer call answering agent
 
-This is an upgraded version of the V1 repo: https://github.com/Barty-Bart/openai-realtime-api-voice-assistant
+This project implements an AI-powered inbound call agent for Mobile Network Operator(MTN Rwanda as a case study). It uses OpenAI's new realtime API and integrates with Twilio to handle incoming phone calls.
 
-This project implements an AI-powered inbound call agent for Bart's Automotive, a fictional automotive business. It uses OpenAI's new realtime API and integrates with Twilio to handle incoming phone calls.
-
-## Tutorial Video
-
-Watch the tutorial video here: https://youtu.be/ffDm4HVGuTM?si=kjulj6eTpe6p_w28
-
-## Upgrades
-
-This version now has:
+## Functionalities
 
 - RAG using OpenAI Assistants API
 - Function Calling
@@ -18,11 +10,7 @@ This version now has:
 
 This version uses Make.com as the backend for processing all RAG and Function Calls. 
 
-This means that you can simply copy the main index.js file, paste it into your favourite AI tool (e.g., ChatGPT) and ask it to modify the function calls for you.
 
-And as a non-coder, you can now run all of your automations/ function calls within Make.com.
-
-This entire build was made for beginners! Hope you enjoy :)
 
 ## Features
 
@@ -43,10 +31,6 @@ This entire build was made for beginners! Hope you enjoy :)
 
 ## Setup
 
-1. Clone the repository:
-   ```
-   git clone https://github.com/Barty-Bart/openai-realtime-api-voice-assistant-V2.git
-   cd openai-realtime-api-voice-assistant-V2
    ```
 
 2. Install dependencies:
@@ -69,10 +53,4 @@ This entire build was made for beginners! Hope you enjoy :)
 
 Once the server is running, it will handle incoming Twilio calls. The AI agent will engage with callers, transcribe their speech, generate appropriate responses, and extract relevant information from the conversation.
 
-## Note
 
-This project is a demonstration and should be adapted for production use, including proper error handling, security measures, and compliance with relevant regulations.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
